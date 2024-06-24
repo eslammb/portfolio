@@ -1,15 +1,20 @@
 interface config {
   icon: string;
   hoverBgColor: string;
+  link: string;
 }
 
 const SocialMediaBtn: React.FC<config> = (props) => {
   return (
-    <button className='flex items-center justify-center text-white'>
+    <a
+      className='flex items-center justify-center text-white'
+      href={props.link}
+      target='_blank'
+    >
       <i
-        className={`fab ${props.icon} text-2xl text-secondary-color ${props.hoverBgColor} transition-all`}
+        className={`${props.icon} text-2xl text-secondary-color ${props.hoverBgColor} transition-all`}
       ></i>
-    </button>
+    </a>
   );
 };
 

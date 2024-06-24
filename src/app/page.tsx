@@ -1,3 +1,4 @@
+import Contact from '../../components/contact';
 import Container from '../../components/container';
 import Header from '../../components/header';
 import MainSection from '../../components/main';
@@ -16,7 +17,9 @@ const HomePage = () => {
           <MainSection />
         </Container>
       </section>
-      <section className='bg-bg-lighter-color py-section-padding'>
+      <section
+        className={`bg-bg-lighter-color py-section-padding bg-[url('/skills-bg.svg')]`}
+      >
         <Container>
           <SectionTitle title='Skills' />
 
@@ -40,7 +43,8 @@ const HomePage = () => {
       </section>
       <section className='py-section-padding'>
         <Container>
-          <div></div>
+          <SectionTitle title='Contact Me' />
+          <Contact />
         </Container>
       </section>
     </div>
