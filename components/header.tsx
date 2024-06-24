@@ -12,7 +12,7 @@ const Header = () => {
         priority
       />
 
-      <ul className='flex flex-row gap-2'>
+      {/* <ul className='flex flex-row gap-2'>
         <li>
           <Link href={'./'}>Home</Link>
         </li>
@@ -28,7 +28,7 @@ const Header = () => {
         <li>
           <Link href={'./contact'}>Contact</Link>
         </li>
-      </ul>
+      </ul> */}
     </header>
   );
 };

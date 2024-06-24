@@ -16,7 +16,8 @@ const config: Config = {
       },
       colors: {
         'main-color': '#f6ca79',
-        'bg-color': '#34353a',
+        'bg-color': '#3d3e42',
+        'bg-lighter-color': '#31323a',
         'secondary-color': '#e7e7e7',
         'linedin-color': '#0a66c2',
         'whatsapp-color': '#00a884',
@@ -24,6 +25,12 @@ const config: Config = {
       },
       height: {
         'main-section-height': 'calc(100vh - 6rem)',
+      },
+      padding: {
+        'section-padding': '6rem',
+      },
+      dropShadow: {
+        'skills-icon-shadow': '0 0px 15px rgba(231, 231, 231, 0.5)',
       },
     },
   },

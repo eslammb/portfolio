@@ -22,7 +22,7 @@ export default function RootLayout({
           href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'
         ></link>
       </head>
-      <body className={'flex px-48 pt-8 w-full'}>{children}</body>
+      <body className={'flex w-full'}>{children}</body>
     </html>
   );
 }
