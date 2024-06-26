@@ -15,7 +15,9 @@ const ItemCard: React.FC<config> = (props) => {
         height={120}
         className='flex-1'
       />
-      <p className='text-secondary-color text-xl justify-end'>{props.name}</p>
+      <p className='text-secondary-color text-xl justify-end h-7 min-h-7 max-h-7'>
+        {props.name}
+      </p>
     </div>
   );
 };
